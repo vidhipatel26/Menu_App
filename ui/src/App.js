@@ -5,7 +5,7 @@ import items from "./apiData";
 import axios from "axios";
 
 const foodMenu = items.payload.restaurantDetails.foodMenu;
-const apiUrl = "http://localhost:9000/menuModal";
+const apiUrl = "http://localhost:9000/aliens";
 
 function App() {
   const [menuItems, setMenuItems] = useState(foodMenu);

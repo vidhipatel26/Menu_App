@@ -15,8 +15,8 @@ con.on('open', () => {
 })
 
 app.use(express.json())
-const menuRouter = require('./routes/menuRouter')
-app.use('/menuModal', menuRouter)
+const alienRouter = require('./routes/aliens')
+app.use('/aliens', alienRouter)
 
 
 app.listen(9000, () => {
