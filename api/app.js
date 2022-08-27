@@ -11,6 +11,7 @@ const con = mongoose.connection
 
 con.on('open', () => {
     console.log('connected...')
+    console.log('connected...')
 })
 
 app.use(express.json())
